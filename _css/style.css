@@ -6,15 +6,193 @@
 
 /* corpo */
 
+body {
+	font-family: Ubuntu;
+}
 
+div.imagem {
+	margin: 0px -8px 5px -8px;
+	height: 650px;
+	background-image: url("../_images/background.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+section.corpo {
+	width: 1240px;
+	margin: auto;
+	padding: 5px;
+}
+
+section.corpo p {
+	text-align: justify;
+	text-indent: 25px;
+}
+
+section.corpo h3 {
+	color: #ff5025;
+}
+
+section.corpo span {
+	font-weight: bolder;
+}
+
+div.video {
+	height: 720px;
+}
 
 /* cabeçalho */
 
+div#barra-topo {
+	background-color: #084d6e;
+	height: 80px;
+	margin: -16px -8px 0px -8px;
+	padding: 10px;
+}
 
+header.cabecalho {
+	margin: auto;
+	width: 1240px;
+	color: white;
+	margin-top: 8px;
+	padding: 10px;
+}	
+
+header.cabecalho h2 {
+	display: none;
+}
+
+div.titulo {
+	display: block;
+	float: left;
+	position: relative;
+	text-transform: uppercase;
+	text-align: center;
+	padding: auto;
+}
+
+div.titulo h1{
+	padding: 0px;
+	margin: 8px 0px 0px 0px;
+}
+
+div.titulo a {
+	color: white;
+	text-decoration: none;
+	transition: text-shadow 0.3s;
+}
+
+div.titulo a:hover {
+	text-shadow: 0px 0px 5px white;
+}
 
 /* Menu */
 
+nav#menu {
+	display: block;
+	float: right;
+}
 
+nav#menu h2 {
+	display: none;
+}
+
+nav#menu ul {
+	position: relative;
+	list-style: none;
+	text-transform: uppercase;
+	text-align: right;
+	padding: auto;
+}
+
+div.dropdown {
+	position: relative;
+  	display: inline-block;
+}
+
+div.dropdown a {
+	cursor: pointer;
+}
+
+div.dropdown-content {
+	display: none;
+ 	position: absolute;
+ 	background-color: #084f70;
+ 	min-width: 160px;
+ 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ 	z-index: 1;
+}
+
+div.dropdown-content a {
+ 	color: white;
+ 	padding: 22px 10px 0px 10px;
+	text-decoration: none;
+	display: block;
+}
+
+div.dropdown-content a:hover {
+	background-color: #185f80;
+}
+
+div.dropdown:hover div.dropdown-content {
+  display: block;
+}
+
+nav#menu li {
+	height: 40px;
+	padding: 22px 10px 0px 10px;
+	text-align: center;
+	margin-top: -22px;
+	display: inline-block;
+}
+
+nav#menu a {
+	color: white;
+	text-decoration: none;
+	transition: color 0.3s;
+}
+
+nav#menu a:hover {
+	color: #ff5025;
+}
 
 /* Rodapé */
 
+div.barra-baixo {
+	color: white;
+	height: 300px;
+	background-color: #302020;
+	margin: 0px -8px -32px -8px;
+}
+
+div.conteudo-rodape{
+	height: 230px;
+}
+
+footer.rodape {
+	padding-top: 17.5px;
+	text-align: center;
+	height: 70px;
+	background-color: #403030;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+footer.rodape h3 {
+	margin: 0px;
+	margin-top: 5px;
+	font-weight: normal;
+	font-style: normal;
+	font-family: arial;
+	font-size: 17px;
+	color: rgba(255, 255, 255, 0.6);
+}
+
+footer.rodape h4 {
+	margin: 0px;
+	font-weight: normal;
+	font-style: normal;
+	font-family: arial;
+	font-size: 15px;
+	color: rgba(255, 255, 255, 0.6);
+}
