@@ -4,7 +4,7 @@
 	src: url(../_fonts/Ubuntu/Ubuntu-Regular.ttf);
 }
 
-/* corpo */
+/* corpo página principal */
 
 body {
 	font-family: Ubuntu;
@@ -46,6 +46,92 @@ div.video {
 	margin-bottom: 15px;
 	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 	padding: auto;
+}
+
+/* corpo contatos */
+
+div.espaco-contatos {
+	height: 114px;
+}
+
+div.corpo-contatos {
+	height: 500px;
+	width: 815px;
+	margin: 10px auto 10px auto;
+	padding: 5px;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+div.imagem-contatos {
+	margin: auto;
+	display: block;
+	float: left;
+	width: 500px;
+	margin-right: -10px;
+}
+
+div.imagem-contatos img {
+	height: 500px;
+	width: 500px;
+}
+
+span.titulo-contatos h3 {
+	text-align: center;
+	font-size: 22.5px;
+}
+
+div.texto-contatos {
+	display: block;
+	float: right;
+	text-align: left;
+	width: 290px;
+	padding: 10px;
+}
+
+div.texto-contatos h3 {
+	color: #ff5025;
+	margin: 0px;
+}
+
+div.texto-contatos h4 {
+	margin: 0px;
+	text-indent: 25px;
+	margin-bottom: 25px;
+}
+
+div.ultimo h4 {
+	margin-bottom: 10px;
+}
+
+div.icones-contatos {
+	clear: both;
+	margin: auto;
+}
+
+div.material-icons{
+	margin-top: 30px;
+}
+
+a.fa {
+  	font-size: 48px;
+  	text-align: center;
+  	text-decoration: none;
+  	margin-right: 20px;
+  	margin-bottom: 20px;
+  	color: #084d6e;
+  	transition: color 0.3s;
+}
+
+a.fa:hover {
+    color: #ff5025;
+}
+
+a.fa-instagram {
+ 	margin-left: 90px;
+}
+
+a.fa-envelope {
+	margin-left: 63px;
 }
 
 /* cabeçalho */
