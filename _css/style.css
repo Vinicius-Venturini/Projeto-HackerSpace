@@ -28,6 +28,7 @@ section.corpo {
 section.corpo p {
 	text-align: justify;
 	text-indent: 25px;
+	color: rgba(0, 0, 0, 0.8);
 }
 
 section.corpo h3 {
@@ -40,15 +41,22 @@ section.corpo span {
 
 div.video {
 	height: 720px;
+	width: 1280px;
+	margin: auto;
+	margin-bottom: 15px;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+	padding: auto;
 }
 
 /* cabeçalho */
 
 div#barra-topo {
 	background-color: #084d6e;
-	height: 80px;
+	height: 110px;
 	margin: -16px -8px 0px -8px;
 	padding: 10px;
+	position: fixed;
+	width: 100%;
 }
 
 header.cabecalho {
@@ -58,6 +66,12 @@ header.cabecalho {
 	margin-top: 8px;
 	padding: 10px;
 }	
+
+header.cabecalho img {
+	height: 120px;
+	width: 120px;
+	margin-top: -25px;
+}
 
 header.cabecalho h2 {
 	display: none;
@@ -72,9 +86,20 @@ div.titulo {
 	padding: auto;
 }
 
-div.titulo h1{
+div.nome h1{
 	padding: 0px;
-	margin: 8px 0px 0px 0px;
+	margin: 25px 0px 0px 0px;
+}
+
+div.logo {
+	display: block;
+	float: left;
+}
+
+div.nome {
+	display: block;
+	float: right;
+	margin-left: 10px;
 }
 
 div.titulo a {
@@ -89,6 +114,10 @@ div.titulo a:hover {
 
 /* Menu */
 
+span.menu {
+	font-weight: bold;
+}
+
 nav#menu {
 	display: block;
 	float: right;
@@ -101,7 +130,6 @@ nav#menu h2 {
 nav#menu ul {
 	position: relative;
 	list-style: none;
-	text-transform: uppercase;
 	text-align: right;
 	padding: auto;
 }
@@ -136,15 +164,16 @@ div.dropdown-content a:hover {
 }
 
 div.dropdown:hover div.dropdown-content {
-  display: block;
+ 	display: block;
 }
 
 nav#menu li {
 	height: 40px;
 	padding: 22px 10px 0px 10px;
 	text-align: center;
-	margin-top: -22px;
+	margin-top: -8px;
 	display: inline-block;
+	font-size: 20px;
 }
 
 nav#menu a {
@@ -195,4 +224,9 @@ footer.rodape h4 {
 	font-family: arial;
 	font-size: 15px;
 	color: rgba(255, 255, 255, 0.6);
+}
+
+footer.rodape a {
+	color: #ff5025;
+	text-decoration: none;
 }
