@@ -10,6 +10,10 @@ body {
 	font-family: Ubuntu;
 }
 
+div.espaco-titulo {
+	height: 114px;
+}
+
 div.imagem {
 	margin: 0px -8px 5px -8px;
 	height: 650px;
@@ -49,10 +53,6 @@ div.video {
 }
 
 /* corpo contatos */
-
-div.espaco-contatos {
-	height: 114px;
-}
 
 div.corpo-contatos {
 	height: 500px;
@@ -283,6 +283,8 @@ div.barra-baixo {
 
 div.conteudo-rodape{
 	height: 230px;
+	width: 1240px;
+	margin: auto;
 }
 
 footer.rodape {
@@ -315,4 +317,93 @@ footer.rodape h4 {
 footer.rodape a {
 	color: #ff5025;
 	text-decoration: none;
+}
+
+div.box {
+	float: left;
+	display: inline-block;
+	margin-top: 
+}
+
+div.box h4 {
+	margin: 0px;
+	margin-top: 25px;
+	margin-bottom: -12px;
+	text-transform: none;
+	font-weight: normal;
+	font-size: 18px;
+	color: #afafaf;
+}
+
+div.box h4.h4-endereco {
+	margin-bottom: -7px;
+}
+
+div.box h5 {
+	margin: 0px;
+	margin-top: 25px;
+	margin-bottom: -12px;
+	text-transform: none;
+	font-weight: normal;
+	font-size: 14px;
+	color: #afafaf;
+}
+
+div#col-1 {
+	height: 200px;
+	width: 250px;
+	margin-left: 200px;
+}
+
+div#col-1 ul {
+	position: relative;
+	list-style: none;
+}
+
+div#col-1 li {
+	text-align: left;
+	text-indent: -30px;
+	padding: 5px;
+}
+
+div#col-2 {
+	height: 200px;
+	width: 250px;
+	float: right;
+	margin-right: 200px;
+}
+
+div.box p {
+	text-align: justify;
+}
+
+div.box a {
+	color: white;
+	text-decoration: none;
+	transition: color 0.3s;
+}
+
+div.box a:hover {
+	color: #ff8045;
+}
+
+div#col-mid {
+	height: 200px;
+	width: 200px;
+	margin-left: 20px;
+}
+
+div.box a.fa {
+	font-size: 24px;
+  	text-align: center;
+  	text-decoration: none;
+  	margin: 0px;
+  	margin-right: 20px;
+  	margin-top: 32px;
+  	color: white;
+  	transition: color 0.3s;
+}
+
+div.box a.fa:hover {
+    color: #ff8045;
 }
