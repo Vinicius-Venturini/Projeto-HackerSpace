@@ -184,6 +184,49 @@ div.imageCtf button:hover {
 	background-color: #185f80;
 }
 
+/* corpo aulas */
+
+div.corpoAulas {
+	width: 1280px;
+	margin: auto;
+	padding: 5px;
+}
+
+div.corpoAulas h2 {
+	text-align: center;
+	color: #ff5025;
+	font-size: 40px;
+}
+
+div.aula {
+	width: 1280px;
+	margin: auto;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+div.aula h3 {
+	text-align: center;
+	margin: 10px 0px 10px 0px;
+	color: #084d6e;
+	font-size: 22.5px;
+}
+
+div.aula p {
+	text-indent: 25px;
+	text-align: justify;
+	color: rgba(0, 0, 0, 0.8);
+	margin: 0px 0px 5px 0px;
+	padding: 5px;
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+div.aula iframe {
+	margin: 10px auto 0px auto;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
 /* corpo contatos */
 
 div.corpo-contatos {
