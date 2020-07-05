@@ -77,6 +77,113 @@ div.aviso-text {
 	margin: auto;
 }
 
+/* capture the flag */
+
+div.corpoCtf {
+	width: 1280px;
+	margin: auto;
+	padding: 5px;
+}
+
+div.corpoCtf h2 {
+	text-align: center;
+	color: #ff5025;
+	font-size: 40px;
+}
+
+div.corpoCtf p {
+	text-align: justify;
+	text-indent: 25px;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+div.imageCtf {
+	width: 640px;
+	margin: auto;
+	padding: 5px;
+	text-align: center;
+}
+
+div.respostas p {
+	text-align: center;
+	text-indent: 0px;
+	color: rgba(0, 0, 0, 0.8);
+	margin-top: 2px;
+}
+
+div.respostas {
+	width: 650px;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	margin: auto;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+div.rCTF {
+	width: 640px;
+	margin: auto;
+	padding: 5px;
+	text-align: left;
+	margin-bottom: 25px;
+}
+
+div.rCTF#dez {
+	margin-bottom: 2px;
+}
+
+div.rCTF input {
+	margin: 0px;
+	background-color: rgb(235, 235, 235);
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	height: 28px;
+	width: 530px;
+	font-size: 16px;
+	border-radius: 5px;
+}
+
+div.rCTF button {
+	border: none;
+ 	color: white;
+ 	padding: 5px 10px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	height: 32px;
+  	width: 100px;
+  	cursor: pointer;
+  	background-color: #084d6e;
+  	border-radius: 5px;
+  	transition: background-color 0.3s;
+}
+
+div.rCTF button:hover {
+	background-color: #185f80;
+}
+
+div.rCTF h3 {
+	margin: 0px;
+	margin-bottom: 5px;
+}
+
+div.imageCtf button {
+	border: none;
+ 	color: white;
+ 	padding: 5px 10px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+ 	height: 32px;
+  	cursor: pointer;
+  	background-color: #084d6e;
+  	border-radius: 5px;
+  	transition: background-color 0.3s;
+  }
+
+div.imageCtf button:hover {
+	background-color: #185f80;
+}
+
 /* corpo contatos */
 
 div.corpo-contatos {
