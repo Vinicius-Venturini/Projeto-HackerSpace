@@ -198,11 +198,44 @@ div.corpoAulas h2 {
 	font-size: 40px;
 }
 
+div.linksAulas {
+	height: 390px;
+	width: 800px;
+	margin: auto;
+	padding: 5px;
+}
+
+div.link {
+	width: 800px;
+	margin: 0px auto 10px auto;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	border-radius: 45px;
+	padding-left: 25px;
+	background-color: rgba(8, 77, 110, 0.2);
+	transition: background-color 0.3s;
+}
+
+div.link:hover {
+	background-color: rgba(8, 77, 110, 1);
+}
+
+div.linksAulas a {
+	text-decoration: none;
+	color: #084d6e;
+	transition: color 0.3s;
+}
+
+div.linksAulas a:hover {
+	color: #ff5025;
+}
+
 div.aula {
 	width: 1280px;
 	margin: auto;
 	padding: 5px;
 	margin-bottom: 10px;
+	background-color: #eeeeee;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
 }
 
 div.aula h3 {
@@ -266,6 +299,20 @@ div.texto-contatos {
 div.texto-contatos h3 {
 	color: #ff5025;
 	margin: 0px;
+}
+
+span.linkedin h3 {
+	color: #ff5025;
+	margin: 0px;
+	transition: color 0.3s;
+}
+
+div.texto-contatos a {
+	text-decoration: none;
+}
+
+span.linkedin h3:hover {
+	color: #084d6e;
 }
 
 div.texto-contatos h4 {
