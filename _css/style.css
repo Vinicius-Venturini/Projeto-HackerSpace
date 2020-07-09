@@ -187,13 +187,13 @@ div.imageCtf button:hover {
 
 /* corpo aulas */
 
-div.corpoAulas {
+div.corpoLinks {
 	width: 1280px;
 	margin: auto;
 	padding: 5px;
 }
 
-div.corpoAulas h2 {
+div.corpoLinks h2 {
 	text-align: center;
 	color: #ff5025;
 	font-size: 40px;
@@ -201,7 +201,7 @@ div.corpoAulas h2 {
 	margin-right: 10px;
 }
 
-div.linksAulas {
+div.links {
 	height: 390px;
 	width: 800px;
 	margin: auto;
@@ -222,13 +222,13 @@ div.link:hover {
 	background-color: rgba(8, 77, 110, 1);
 }
 
-div.linksAulas a {
+div.links a {
 	text-decoration: none;
 	color: #084d6e;
 	transition: color 0.3s;
 }
 
-div.linksAulas a:hover {
+div.links a:hover {
 	color: #ff5025;
 }
 
@@ -799,11 +799,11 @@ div.box a.fa:hover {
 /* aulas responsive */
 
 @media only screen and (max-width: 1279px){
-	div.corpoAulas {
+	div.corpoLinks {
 		width: 96%;
 	}
 
-	div.linksAulas {
+	div.links {
 		height: 48.75%;
 		width: 90%;
 	}
