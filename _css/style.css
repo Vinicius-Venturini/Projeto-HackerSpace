@@ -269,6 +269,56 @@ div.videoAula iframe {
 	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
 
+/* corpo artigo */
+
+div.artigo {
+	width: 1280px;
+	margin: auto;
+	padding: 5px 10px 5px 10px;
+	margin-bottom: 15px; 
+}
+
+div.imageArtigoPL2630 {
+	margin: auto;
+	width: 636px;
+	color: rgba(0, 0, 0, 0.7);
+}
+
+div.imageArtigoPL2630 img {
+	border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+div.artigo h3 {
+	text-align: center;
+	margin: 10px 0px 10px 0px;
+	color: #084d6e;
+	font-size: 22.5px;
+}
+
+span.negrito {
+	font-weight: bolder;
+	color: #084d6e;
+	font-size: 16.5px;
+}
+
+div.responsaveis {
+	margin-bottom: 5px;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+div.data {
+	text-align: center;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+div.artigo p {
+	text-indent: 25px;
+	text-align: justify;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+
 /* corpo contatos */
 
 div.corpo-contatos {
@@ -987,6 +1037,23 @@ div.box a.fa:hover {
 		margin-left: 0px;
 	}
 	
+}
+
+/* artigo responsive */
+
+@media only screen and (max-width: 1280px){
+	div.artigo {
+		width: 95%;
+	}
+
+	div.imageArtigoPL2630 {
+		width: 100%;
+	}
+
+	div.imageArtigoPL2630 img {
+		width: 100%;
+	}
+
 }
 
 /* footer responsive */
