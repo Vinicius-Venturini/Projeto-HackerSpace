@@ -821,10 +821,6 @@ div.box a.fa:hover {
 		background-color: #185f80;
 	}
 
-	div.dropdown-responsive:hover div.dropdown-content-responsive {
-	 	display: block;
-	}
-
 	nav#menu-responsive li {
 		height: 40px;
 		padding: 22px 10px 0px 10px;
