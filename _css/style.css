@@ -1274,6 +1274,24 @@ div.box a.fa:hover {
 		height: auto;
 		width: 90%;
 	}
+
+	div#inscricao h3 {
+		font-size: 12px;
+		margin-top: 0px;
+	}
+}
+
+/* 404 responsive */
+
+@media only screen and (max-width: 1279px){
+	div.erro {
+		width: 96%;
+	}
+
+	div.erro img {
+		width: 100%;
+		height: auto;
+	}
 }
 
 /* footer responsive */
