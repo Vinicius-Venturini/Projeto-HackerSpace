@@ -419,6 +419,132 @@ a.fa-envelope {
 	margin-left: 63px;
 }
 
+/* corpo inscrições */
+
+div.linksInscricoes {
+	width: 880px;
+	height: 560px;
+	padding: 20px;
+	padding-top: 0px;
+	margin: auto;
+}
+
+div.linkHackoon {
+	height: 460px;
+	width: 400px;
+	display: block;
+	float: left;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	transition: transform 0.5s;
+}
+
+div.linkHackoon:hover {
+	transform: scale(1.1);
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	border: none;
+}
+
+div.linkTanuki {
+	height: 460px;
+	width: 400px;
+	display: block;
+	float: right;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	transition: transform 0.5s;
+}
+
+div.linkTanuki:hover {
+	transform: scale(1.1);
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	border: none;
+}
+
+div.imgInscricao {
+	width: 360px;
+	height: 360px;
+	margin: auto;
+	margin-top: 20px;
+	border: 1px solid rgba(0, 0, 0, 0.7);
+	background-color: #bc1826;
+}
+
+img.logoHackoon {
+	width: 360px;
+	height: 360px;
+}
+
+div.linksInscricoes h4 {
+	margin-top: 25px;
+	font-size: 25px;
+	text-align: center;
+	color: black;
+}
+
+div.linksInscricoes h2 {
+	text-align: center;
+	color: #ff5025;
+	font-size: 40px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+/* inscrição hackoon */
+
+div#inscricao {
+	height: 520px;
+	width: 1280px;
+	margin: auto;
+	text-align: justify;
+	margin-top: -50px;
+}
+
+div#inscricao p {
+	text-indent: 25px;
+	text-align: justify;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+
+div#inscricao h2 {
+	margin: 0px;
+	margin-top: 75px;
+	text-align: center;
+	margin-bottom: 25px;
+	font-size: 40px;
+}
+
+div.insHackoon h2 {
+	color: #008000;
+}
+
+div.insTanuki h2 {
+	color: #ff0000;
+}
+
+div#inscricao h3 {
+	margin-top: 35px;
+	text-align: center;
+	font-size: 25px;
+}
+
+div#inscricao a {
+	text-decoration: none;
+}
+
+/* página de erro */
+
+div.erro {
+	width: 1000px;
+	margin: auto;
+	margin-bottom: 25px;
+}
+
+div.erro img {
+	width: 1000px;
+	height: auto;
+}
+
 /* cabeçalho */
 
 div#barra-topo {
@@ -428,6 +554,7 @@ div#barra-topo {
 	padding: 10px;
 	position: fixed;
 	width: 100%;
+	z-index: 1;
 }
 
 header.cabecalho {
@@ -532,6 +659,10 @@ div.dropdown-content a {
  	padding: 22px 10px 0px 10px;
 	text-decoration: none;
 	display: block;
+}
+
+div.dropdown-content li {
+ 	padding: 22px 10px 0px 10px;
 }
 
 div.dropdown-content a:hover {
@@ -762,7 +893,7 @@ div.box a.fa:hover {
 
 /* Cabeçalho Responsive */
 
-@media only screen and (max-width: 1279px) {
+@media only screen and (max-width: 1290px) {
 
 	header.cabecalho {
 		width: 98%;
@@ -775,7 +906,7 @@ div.box a.fa:hover {
 	}
 }
 
-@media only screen and (max-width: 815px) {
+@media only screen and (max-width: 920px) {
 
 	div.nome h1{
 		display: none;
@@ -812,7 +943,7 @@ div.box a.fa:hover {
 
 	div.dropdown-content-responsive a {
 	 	color: white;
-	 	padding: 22px 10px 0px 10px;
+	 	padding: 15px 10px 0px 10px;
 		text-decoration: none;
 		display: block;
 	}
@@ -1050,6 +1181,99 @@ div.box a.fa:hover {
 		width: 100%;
 	}
 
+}
+
+/* inscrição responsive */
+
+@media only screen and (max-width: 1279px){
+
+	div.linksInscricoes {
+		width: 96%;
+		height: auto;
+		padding: 0px;
+		padding-top: 0px;
+		margin: auto;
+	}
+
+	div.linkHackoon {
+		height: auto;
+		width: 94%;
+		margin: auto;
+		margin-bottom: 20px;
+		padding-top: 1px;
+		padding-bottom: 1px;
+		border: none;
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+		transition: transform 0.5s;
+		float: none;
+	}
+
+	div.linkHackoon:hover {
+		transform: none;
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	}
+
+	div.linkTanuki {
+		height: auto;
+		width: 94%;
+		margin: auto;
+		padding-top: 1px;
+		padding-bottom: 1px;
+		border: none;
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+		transition: transform 0.5s;
+		float: none;
+	}
+	
+	div.linkTanuki:hover {
+		transform: none;
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	}
+
+	div.imgInscricao {
+		width: 90%;
+		height: auto;
+		margin: auto;
+		margin-top: 19px;
+		border: none;
+	}
+
+	img.logoHackoon {
+		width: 100%;
+		height: auto;
+	}
+
+	div.linksInscricoes h4 {
+		margin-top: 25px;
+		margin-bottom: 20px;
+		font-size: 25px;
+		text-align: center;
+		color: black;
+		text-decoration: none;
+	}
+
+	div.linksInscricoes a {
+		text-decoration: none;
+	}
+}
+
+@media only screen and (max-width: 295px){
+		div.linksInscricoes h2 {
+		text-align: center;
+		color: #ff5025;
+		font-size: 20px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+
+/* inscrições responsive */
+
+@media only screen and (max-width: 1279px){
+	div#inscricao {
+		height: auto;
+		width: 90%;
+	}
 }
 
 /* footer responsive */
