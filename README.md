@@ -16,8 +16,8 @@ O site está hospedado no Domínio: https://hackoonspace.com
 
 ## Autores:
 
-* Vinícius Carvalho Venturini (https://github.com/Vinicius-Venturini)
-* Marcus Vinícius Natrieli Garcia (https://github.com/Infinitemarcus)
+* Vinícius Carvalho Venturini ([Vinicius-Venturini]https://github.com/Vinicius-Venturini)
+* Marcus Vinícius Natrieli Garcia ([Infinitemarcus]https://github.com/Infinitemarcus)
 
 ## Imagens:
 
